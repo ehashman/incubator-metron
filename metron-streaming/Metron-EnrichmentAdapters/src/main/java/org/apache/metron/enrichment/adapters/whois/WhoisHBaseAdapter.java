@@ -123,14 +123,5 @@ public class WhoisHBaseAdapter extends AbstractWhoisAdapter {
 		return output;
 
 	}
-	
-//	private String format(String input) {
-//		String output = input;
-//		String[] tokens = input.split("\\.");
-//		if(tokens.length > 2) {
-//			output = Joiner.on(".").join(Arrays.copyOfRange(tokens, 1, tokens.length));;
-//		}
-//		return output;
-//	}
 
 }
